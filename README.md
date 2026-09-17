@@ -1,3 +1,3 @@
 # CSharp-Notes
 
-+ [옵저버 패턴](Observer_Pattern.md)
++ [디자인 패턴](Pattern/)
