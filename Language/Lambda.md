@@ -2,7 +2,7 @@
 > 람다식은 익명 함수(Anonymous Function)의 한 종류로서, 코드를 간단하게 표현하기 위해 사용한다.
 
 ### 구현
-```
+```cs
 (parameters) => expression
 ```
 > 여기서 'parameters'는 입력 매개변수를, 'expresstion'은 실행할 코드 블록을 나타낸다.
@@ -14,14 +14,14 @@
 1. 간결성
     > 간단한 로직을 표현할 때, 전통적인 메서드 정의보다 더 짧고 읽기 쉽게 표현이 가능하다.
     >> 기본적인 메서드 정의 : 
-    ```
+    ```cs
     public int Square(int x)
     {
         return x * x;
     }
     ```
     >> 람다식 정의 : 
-    ```
+    ```cs
     Func<int, int> square = x => x * x;
     ```
 1. 함수형 프로그래밍
